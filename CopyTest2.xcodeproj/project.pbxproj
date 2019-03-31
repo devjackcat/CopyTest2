@@ -13,9 +13,17 @@
 		7D082E1A224B5B6B002B6EC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D082E19224B5B6B002B6EC0 /* Assets.xcassets */; };
 		7D082E1D224B5B6B002B6EC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D082E1B224B5B6B002B6EC0 /* LaunchScreen.storyboard */; };
 		7D082E20224B5B6B002B6EC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D082E1F224B5B6B002B6EC0 /* main.m */; };
+		7D082E2A224B5B96002B6EC0 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D082E26224B5B95002B6EC0 /* Item.m */; };
+		7D082E2B224B5B96002B6EC0 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D082E27224B5B96002B6EC0 /* Test.m */; };
+		7D082E72224CBFE2002B6EC0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D082E71224CBFE2002B6EC0 /* Person.m */; };
+		7D24ECAB224E1A87009AF201 /* NSObject+JCS_DeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D24ECAA224E1A87009AF201 /* NSObject+JCS_DeepCopy.m */; };
+		7D24ECAE22510042009AF201 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D24ECAD22510042009AF201 /* Student.m */; };
+		7D24ECB1225100A7009AF201 /* ClassRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D24ECB0225100A7009AF201 /* ClassRoom.m */; };
+		8DC2BE529BED981C5FCD4CA8 /* Pods_CopyTest2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FD289F7856EB1954F5B7C0 /* Pods_CopyTest2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C34CB8FE255717E3C98AB2F /* Pods-CopyTest2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CopyTest2.release.xcconfig"; path = "Pods/Target Support Files/Pods-CopyTest2/Pods-CopyTest2.release.xcconfig"; sourceTree = "<group>"; };
 		7D082E0D224B5B68002B6EC0 /* CopyTest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CopyTest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D082E10224B5B68002B6EC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7D082E11224B5B68002B6EC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +34,20 @@
 		7D082E1C224B5B6B002B6EC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D082E1E224B5B6B002B6EC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D082E1F224B5B6B002B6EC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D082E26224B5B95002B6EC0 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		7D082E27224B5B96002B6EC0 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		7D082E28224B5B96002B6EC0 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		7D082E29224B5B96002B6EC0 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		7D082E70224CBFE2002B6EC0 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		7D082E71224CBFE2002B6EC0 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		7D24ECA9224E1A87009AF201 /* NSObject+JCS_DeepCopy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+JCS_DeepCopy.h"; sourceTree = "<group>"; };
+		7D24ECAA224E1A87009AF201 /* NSObject+JCS_DeepCopy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JCS_DeepCopy.m"; sourceTree = "<group>"; };
+		7D24ECAC22510042009AF201 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		7D24ECAD22510042009AF201 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		7D24ECAF225100A7009AF201 /* ClassRoom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassRoom.h; sourceTree = "<group>"; };
+		7D24ECB0225100A7009AF201 /* ClassRoom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassRoom.m; sourceTree = "<group>"; };
+		7F6A3101BB39D724F856F1A1 /* Pods-CopyTest2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CopyTest2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CopyTest2/Pods-CopyTest2.debug.xcconfig"; sourceTree = "<group>"; };
+		A8FD289F7856EB1954F5B7C0 /* Pods_CopyTest2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CopyTest2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DC2BE529BED981C5FCD4CA8 /* Pods_CopyTest2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EF6D98002A91A1660CAF440 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8FD289F7856EB1954F5B7C0 /* Pods_CopyTest2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		689DE1942BAC123F881AFFF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F6A3101BB39D724F856F1A1 /* Pods-CopyTest2.debug.xcconfig */,
+				2C34CB8FE255717E3C98AB2F /* Pods-CopyTest2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7D082E04224B5B68002B6EC0 = {
 			isa = PBXGroup;
 			children = (
 				7D082E0F224B5B68002B6EC0 /* CopyTest2 */,
 				7D082E0E224B5B68002B6EC0 /* Products */,
+				689DE1942BAC123F881AFFF1 /* Pods */,
+				3EF6D98002A91A1660CAF440 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +100,18 @@
 		7D082E0F224B5B68002B6EC0 /* CopyTest2 */ = {
 			isa = PBXGroup;
 			children = (
+				7D082E28224B5B96002B6EC0 /* Item.h */,
+				7D082E26224B5B95002B6EC0 /* Item.m */,
+				7D082E70224CBFE2002B6EC0 /* Person.h */,
+				7D082E71224CBFE2002B6EC0 /* Person.m */,
+				7D24ECAC22510042009AF201 /* Student.h */,
+				7D24ECAD22510042009AF201 /* Student.m */,
+				7D24ECAF225100A7009AF201 /* ClassRoom.h */,
+				7D24ECB0225100A7009AF201 /* ClassRoom.m */,
+				7D082E29224B5B96002B6EC0 /* Test.h */,
+				7D082E27224B5B96002B6EC0 /* Test.m */,
+				7D24ECA9224E1A87009AF201 /* NSObject+JCS_DeepCopy.h */,
+				7D24ECAA224E1A87009AF201 /* NSObject+JCS_DeepCopy.m */,
 				7D082E10224B5B68002B6EC0 /* AppDelegate.h */,
 				7D082E11224B5B68002B6EC0 /* AppDelegate.m */,
 				7D082E13224B5B68002B6EC0 /* ViewController.h */,
@@ -78,9 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D082E23224B5B6B002B6EC0 /* Build configuration list for PBXNativeTarget "CopyTest2" */;
 			buildPhases = (
+				887E33A09FFFD1433C96B539 /* [CP] Check Pods Manifest.lock */,
 				7D082E09224B5B68002B6EC0 /* Sources */,
 				7D082E0A224B5B68002B6EC0 /* Frameworks */,
 				7D082E0B224B5B68002B6EC0 /* Resources */,
+				5EB7E953A55EA93B7C6CE7BA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,11 +192,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5EB7E953A55EA93B7C6CE7BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CopyTest2/Pods-CopyTest2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BNDeepCopy/BNDeepCopy.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BNDeepCopy.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CopyTest2/Pods-CopyTest2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		887E33A09FFFD1433C96B539 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CopyTest2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7D082E09224B5B68002B6EC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D082E72224CBFE2002B6EC0 /* Person.m in Sources */,
+				7D082E2B224B5B96002B6EC0 /* Test.m in Sources */,
+				7D082E2A224B5B96002B6EC0 /* Item.m in Sources */,
+				7D24ECB1225100A7009AF201 /* ClassRoom.m in Sources */,
+				7D24ECAE22510042009AF201 /* Student.m in Sources */,
+				7D24ECAB224E1A87009AF201 /* NSObject+JCS_DeepCopy.m in Sources */,
 				7D082E15224B5B68002B6EC0 /* ViewController.m in Sources */,
 				7D082E20224B5B6B002B6EC0 /* main.m in Sources */,
 				7D082E12224B5B68002B6EC0 /* AppDelegate.m in Sources */,
@@ -283,34 +392,40 @@
 		};
 		7D082E24224B5B6B002B6EC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F6A3101BB39D724F856F1A1 /* Pods-CopyTest2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RLV5E2EH99;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = S8JBM2NX4M;
 				INFOPLIST_FILE = CopyTest2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jackcat.CopyTest2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ultimavip.dit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = BlackCard;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		7D082E25224B5B6B002B6EC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C34CB8FE255717E3C98AB2F /* Pods-CopyTest2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RLV5E2EH99;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = S8JBM2NX4M;
 				INFOPLIST_FILE = CopyTest2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jackcat.CopyTest2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ultimavip.dit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = BlackCard;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

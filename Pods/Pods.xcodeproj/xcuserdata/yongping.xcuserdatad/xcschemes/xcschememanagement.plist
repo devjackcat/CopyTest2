@@ -4,19 +4,18 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CopyTest2.xcscheme_^#shared#^_</key>
+		<key>BNDeepCopy.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CopyTest2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>7D082E0C224B5B68002B6EC0</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

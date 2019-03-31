@@ -1,0 +1,6 @@
+framework module BNDeepCopy {
+  umbrella header "BNDeepCopy-umbrella.h"
+
+  export *
+  module * { export * }
+}

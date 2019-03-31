@@ -1,0 +1,16 @@
+PODS:
+  - BNDeepCopy (1.0)
+
+DEPENDENCIES:
+  - BNDeepCopy
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BNDeepCopy
+
+SPEC CHECKSUMS:
+  BNDeepCopy: ce8471918e7e4ad4cd4e70bff19dd1182dc66004
+
+PODFILE CHECKSUM: db5bd2ae78f6862e33ba3121d4d67e2392fec020
+
+COCOAPODS: 1.5.3
