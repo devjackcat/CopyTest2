@@ -9,6 +9,23 @@
 #import "Student.h"
 
 @implementation Student
+
+//- (id)copyWithZone:(NSZone *)zone {
+//    Student *stu = [[Student alloc] init];
+//    stu.name = [self.name copy];
+//    stu.age = self.age;
+//    stu.blogUrl = [self.blogUrl copy];
+//    return stu;
+//}
+//
+//- (id)mutableCopyWithZone:(NSZone *)zone {
+//    Student *stu = [[Student alloc] init];
+//    stu.name = [self.name copy];
+//    stu.age = self.age;
+//    stu.blogUrl = [self.blogUrl copy];
+//    return stu;
+//}
+
 - (NSString *)description {
     NSMutableString * content = [NSMutableString string];
     [content appendString:@"   --------------------\n"];

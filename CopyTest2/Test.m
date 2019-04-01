@@ -19,13 +19,24 @@
 @implementation Test
 
 - (void)run {
-    [self test_runtime_deepcopy_3];
-//    NSString *str1 = @"张三";
-//    NSString *str2 = @"张三";
-//    NSLog(@" p1 = %p p2 = %p %@",&str1,str1,str1);
-//    NSLog(@" p1 = %p p2 = %p %@",&str2,str2,str2);
+    [self test_object_mutableCopy_1];
 }
 
+/**
+ 自定义对象mutableCopy
+ */
+- (void)test_object_mutableCopy_1 {
+    Student *stu1 = [[Student alloc] init];
+    stu1.name = @"张三";
+    stu1.blogUrl = [NSURL URLWithString:@"http://www.11111.com"];
+    stu1.age = 18;
+    
+    Student *stu2 = [stu1 copy];
+    Student *stu3 = [stu1 mutableCopy];
+    NSLog(@"-- stu1 = %@",stu1);
+    NSLog(@"-- stu2 = %@",stu2);
+    NSLog(@"-- stu3 = %@",stu3);
+}
 
 - (void)test_runtime_deepcopy_3 {
     

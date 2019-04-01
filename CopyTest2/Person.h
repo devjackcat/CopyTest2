@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Person : NSObject <NSCoding>
+@interface Person : NSObject <NSCoding,NSCopying>
 
 /** 姓名 */
 @property (nonatomic, copy) NSString *name;
